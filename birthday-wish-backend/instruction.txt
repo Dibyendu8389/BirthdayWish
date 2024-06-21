@@ -1,0 +1,9 @@
+This backend implementation provides two main endpoints:
+
+POST /api/wishes/create: Creates a new birthday wish
+GET /api/wishes/:wishUrl: Retrieves a wish by its unique URL
+
+To run the server in development mode, use:
+Copynpm run dev
+Remember to replace your_mongodb_atlas_connection_string in the .env file with your actual MongoDB Atlas connection string.
+This setup provides a solid foundation for your Birthday Wish backend. You'll need to integrate this with a service like Cloudinary for image uploads, which we can implement next if you'd like. Is there any specific part you'd like me to explain further or any additional 
